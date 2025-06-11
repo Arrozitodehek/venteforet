@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Entreprise Verte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6'); /* Image d'arbre */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #90ee90;
+    }
+
+    section {
+      padding: 100px 20px;
+      min-height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#solutions">Nos solutions</a>
+    <a href="#services">Nos services</a>
+    <a href="#devis">Devis</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="solutions">
+    <h1>Nos solutions</h1>
+    <p>Découvrez nos solutions innovantes pour un avenir plus vert.</p>
+  </section>
+
+  <section id="services">
+    <h1>Nos services</h1>
+    <p>Nous proposons une gamme complète de services adaptés à vos besoins.</p>
+  </section>
+
+  <section id="devis">
+    <h1>Demandez un devis</h1>
+    <p>Contactez-nous pour recevoir une estimation personnalisée.</p>
+  </section>
+
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>Adresse : 123 Rue Verte, Paris — Email : contact@entrepriseverte.com</p>
+  </section>
+
+</body>
+</html>
